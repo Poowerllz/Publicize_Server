@@ -1,45 +1,112 @@
 @media (max-width: 1230px) {
-#main header .title h1{
-    font-size: 1.7rem;
-}
-
-#main header nav {
-    transform: scale(0.9);
-}
-}
-
-@media (max-width: 750px) {
     #main header .title h1{
-        transition-duration: 400ms;
-
-        font-size: 1rem;
+        font-size: 1.7rem;
     }
-
+    
     #main header nav {
-        transform: scale(0.7);
+        transform: scale(0.9);
+    }
+    }
+    
+    @media (max-width: 750px) {
+        #main header .title h1{
+            transition-duration: 400ms;
+    
+            font-size: 1rem;
+        }
+    
+        #main header nav {
+            transform: scale(0.7);
+            
+        }
+    }
+    
+    
+    @media (max-width: 460px){
+        #inicio .box span img,
+        #conheca .box span img{   
+        height: 30vh;
+        }
+    }
+    
+    @media (max-width: 660px) {
+    
+    
+        #main header .inside{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            }
         
+            #main header nav label {
+                margin-right: 2%;
+            }
+    
+        #inicio .box span{
+            flex-direction: column;
+        }
+    
+        #inicio .box span .text{
+            width: 100%;
+    
+        }
+    
+        #inicio .box span .text h4,
+        #conheca .box span .text h4{
+            text-align: center;
+            font-size: 0.9rem;
+        }
+    
+        #inicio .box span img{
+            border-radius: 64px;
+            margin-left: 21%;
+            width: 60vw;
+        }
+    
+        
+        #conheca .box span .text{
+            position: relative;
+        }
+    
+        #conheca .box span img{
+            border-radius: 64px;
+            margin-top: 3%;
+            width: 50vw;
+            height: 25vh;
+            margin:0;
+        }
+    
+        #conheca .box span .inside {
+            display: flex;
+        }
+    
+        #conheca .box span .grid{
+            margin-left: 2%;
+            display: flex;
+            flex-direction: column;
+        }
+    
+        #conheca .box span .title{
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        #conheca .box span h1{
+            margin-left: 20%;
+        }
+    
+        #conheca .box span .last{
+            display: none;
+        }
+        
+        #conheca .box span .center{
+            margin-top: 5%;
+        }
+    
+        [data-anime="right-title"]{
+            transition-duration: 900ms;
+            transform: translate3d(+200px, 0, 0);
+            transform: scale(1.6);
+        }
     }
-}
-
-@media (max-width: 665px) {
-
-    #main{
-        background-size: 300%;
-    }
-
-    #conheca{
-        background-size: 300%;
-
-    }
-
-    #main header .inside{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    }
-
-    #main header nav label {
-        margin-right: 2%;
-    }
-
-}

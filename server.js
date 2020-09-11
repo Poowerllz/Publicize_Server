@@ -19,9 +19,6 @@ server.use(express.static('Public/styles/pages'));
 
 server.use(express.static('Public/scripts'));
 
-
-
-
 server.get('/', function(req, res) {
     return res.send("Views/index.html")
 });
