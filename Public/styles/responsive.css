@@ -171,4 +171,100 @@
         #contato .box .inside .left h2{
             margin-left: 0;
         }
+
+        #horarios nav {
+            width: 50%;
+            margin: 0;
+            height: 10%;
+
+        }
+
+        #horarios .date .headerTitle{
+        font-size: 1.8rem;
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+        }
+
+        #horarios .date h1{
+            font-size: 1.8rem;
+        }
+
+        #horarios{
+        background-size: 300%;
+        }
+
+        #horarios .inside  img{
+            width: 100%;
+            height: 70%
+        }        
+
+        #horarios nav label{
+            margin-left: 2%;
+            margin-right: 2%;
+            transform: scale(0.8);
+        }
+
+        #horarios .insidMain,
+        #horarios .footerText{
+        margin-top: 5%;
+        font-size: 1.2rem;
+            margin-top: 8%;
+}
+
+    [data-anime="horarios-title"]{
+        transition-duration: 900ms;
+        transform: translate3d(+200px, 0, 0);
+        transform: scale(0.8);
     }
+
+    #desenvolvedor{
+    }
+
+    #desenvolvedor .Dtitle{
+    margin-left: 0;
+    }
+
+    #desenvolvedor .Dtitle h1{
+        width: 420%;
+    }
+
+    #desenvolvedor .Dinside .social h1,
+    #desenvolvedor .Dinside .my h1,
+    #desenvolvedor .Dinside .git h1{
+        font-size: 1rem; 
+    }
+
+    #desenvolvedor .Dinside {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #desenvolvedor .Dtitle{
+        margin-top: 5%;
+    }
+
+    #desenvolvedor .Dinside img{
+        height: 20vh;
+        width: 40vw;
+        margin: 0;
+    }
+
+    #desenvolvedor .Dinside .my h1{
+    width: 100%;
+    }
+
+    #desenvolvedor .Dinside .social .images{
+        width: 200%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #desenvolvedor .Dinside .social h1{
+        display: none;
+    }
+
+    #desenvolvedor .Dinside .git {
+        display: none;
+    }
+}

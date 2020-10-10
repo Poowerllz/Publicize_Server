@@ -1,5 +1,5 @@
 #horarios{
-    background-image: url("horarios.jpg");
+    background-image: url("horariosM.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
 
@@ -36,16 +36,12 @@
 
 #horarios .headerTitle{
     font-size: 3.5rem;
-    margin-left: 32.5%;
+    margin-left: 31%;
     width: 38%;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 10%;
-}
-
-#horarios .date h1{
-    font-size: 3rem;
 }
 
 
@@ -97,12 +93,20 @@
     align-items: center;
 }
 
+#horarios .inside h1{
+    font-size: 3rem;
+}
+
 #horarios .inside  img{
     border-radius: 16px;
     margin-top: 3vh;
     width: 60%;
     height: 70%;
     box-shadow: 0px 10px 10px black;
+}
+
+#horarios .insidMain{
+    font-size: 3rem;
 }
 
 #horarios .insidMain,
